@@ -15,7 +15,7 @@ as a dependency of `c2cs-jsdoc`.
 We're also going to assume that you will be running your documentation generation
 through "npm scripts", which we recommend.
 
-### Create a minimal config
+### 1 - Create a minimal config
 
 For the most part, use of the various parts of this module is done through JSDoc
 configuration; more specifically, through a JSDoc configuration file.
@@ -23,6 +23,7 @@ configuration; more specifically, through a JSDoc configuration file.
 More information is available in the [JSDoc Configuration](./configuration.md) 
 document, but here's a minimal example:
 
+**conf/docs/html.json**
 ```javascript
 {
 	"source"        : {
@@ -41,14 +42,11 @@ document, but here's a minimal example:
 }
 ```
 
-Create a file in your project, for example `conf/docs/html.json` and put
-the JSON above into that file.
+Create the file above, using the filename above the example.
 
-### Create a script
+### 2 - Create a script
 
-Create a `scripts/` directory in your project.  Next, add a file named
-`build-docs.sh` and insert the code below:
-
+**scripts/build-docs.sh**
 ```shell
 #!/bin/bash
 
@@ -59,7 +57,9 @@ rm -rf doc/html
 node node_modules/c2cs-jsdoc/node_modules/jsdoc/jsdoc.js --configure conf/docs/html.json
 ```
 
-### Update Package.json
+Create the file above, using the filename above the example.
+
+### 3 - Update Package.json
 
 Next, create a reference to your new script in your project's `package.json` file.
 
@@ -69,7 +69,7 @@ Next, create a reference to your new script in your project's `package.json` fil
 	},
 ```
 
-### Run the Script
+### 4 - Run the Script
 
 From your favorite shell you should now be able to run this:
 
