@@ -9,4 +9,8 @@ continuing.
 
 ## Starting Up
 
-First
+First, checkout the repository:
+
+```shell
+> git clone git@github.com:c2cs/c2cs-jsdoc.git
+```
