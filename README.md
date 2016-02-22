@@ -3,6 +3,8 @@ Schools for most of our Node.js projects.
 
 ## Documentation
 
-* [Usage](docs/md/README.md)
+* [Installation](docs/md/installation.md)
+* [Basic Usage](docs/md/basic-usage.md)
+* [Developing](docs/md/developing.md)
 * [Dependency Documentation](docs/md/dependencies.md)
 * [Acknowledgements](docs/md/acknowledgements.md)
