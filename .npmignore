@@ -1,16 +1,3 @@
-# --------------------------------------- #
-#    C2C's Universal GIT Ignore File      #
-# - - - - - - - - - - - - - - - - - - - - #
-#  Version  : 1.1                         #
-#  Author   : Luke Chavers                #
-#  Created  : Monday, Jan 26th, 2015      #
-#  Based On : https://www.gitignore.io    #
-# - - - - - - - - - - - - - - - - - - - - #
-#  This .gitignore file is pretty robust  #
-# and should be appropriate for most, if  #
-#         not all, C2C projects.          #
-# --------------------------------------- #
-
 # -- Generic / Misc ----------------------#
 
 .tmp
@@ -62,13 +49,28 @@ atlassian-ide-plugin.xml
 out/
 dist/bower_components
 
+# -- Unit Tests ------------------------- #
+
+test
+
 # -- Vagrant ---------------------------- #
 
 .vagrant
+Vagrantfile
+env
+
+# -- CI/CD ------------------------------ #
+
+.travis.yml
 
 # -- C2C Authentication ----------------- #
 
 auth/*.tar.gz
+
+# -- Task/Script Runners ---------------- #
+
+scripts
+grunt
 
 # -- Common C2C Patterns ---------------- #
 
