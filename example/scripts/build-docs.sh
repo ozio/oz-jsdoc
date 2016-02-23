@@ -8,7 +8,7 @@ echo "--"
 rm -rf doc/html
 
 # Execute JSDoc
-node node_modules/c2cs-jsdoc/node_modules/jsdoc/jsdoc.js --configure conf/docs/html.json
+node node_modules/c2cs-jsdoc/node_modules/jsdoc/jsdoc.js --configure config/html-minimal.json
 
 # Show the JSDoc Output
 cd doc/html
