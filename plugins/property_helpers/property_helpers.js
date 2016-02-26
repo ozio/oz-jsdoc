@@ -294,7 +294,7 @@ function extractMethodsFromTag( tag, defaultMethodName ) {
  * @access private
  * @param {string} methodType The type of automatic method being generated
  * @param {string} methodName The name of the automatic method
- * @param {object} A source JSDoc doclet, presumably for a class property (member)
+ * @param {object} sourceDoclet A source JSDoc doclet, presumably for a class property (member)
  * @returns {object} A new JSDoc doclet
  */
 function generateMethodDoclet( methodType, methodName, sourceDoclet ) {
