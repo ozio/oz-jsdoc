@@ -1,3 +1,4 @@
+[![NPM](https://nodei.co/npm/c2cs-jsdoc.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/c2cs-jsdoc/)
 [![Build Status](https://travis-ci.org/c2cs/c2cs-jsdoc.svg?branch=master)](https://travis-ci.org/c2cs/c2cs-jsdoc)
 
 This project provides a JSDoc and a collection of plugin's that we use at C2C
