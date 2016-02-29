@@ -9,5 +9,5 @@ deploy:
   api_key:
     secure: Ng6qzq1CmZj3C4cY914OmFrfkixKxbGkUZqxCeWb+h/8USSIAzEiRsqd0EFb77TEDf/iJ+vvBvooAlC+333BW2/T85eICdEbYFQ5bGIqYqKn3Uh8Og+c24VebrU+NkL6leS+zX83upGElX2pfjbEzoMDLVEf60unMSXfI3QIqlV1JggMYaILOyOijpKjPirja54RuiWJiNadyW8u5FcOuFkVXV+GRJ0Xxb638v02jfGK7Ts1L8i/Q8gFbL5N5RKM+GU3As1WAq2B4y+M1ltBsrhCVyp+QrRhF8bdeTcYV2l01U4uujx9qeiz8E+xpsexwmKsTTB3KM5/9EuBi14oibFGmG1ozq/3+XVuiYLI8G8snVkmk/qC8QI1KP8k3W80rabiL9Hnlj6mGKY2owLfYr+gI+tzOVDIl/Cb5UBMPlpQY+IexYqXB5X57I+eCDsRjuVl8qFGemqT1u/fLvvMnxq/XPdaUKINsaS2LziiV4glIGTKJpV/rtngib08bJM1arlbtrTH5n5QHPeYKm+TCGPxskes9V9vj1ow4LaFkKr+sxkO6+OBk6MZDAB9CjqChQ2hXLg3DdleprsCWzctek67EHQOSvgj91Vn1IP5X52aIuYOsfqsXa4n7I+ftLm7qz8wA4Jhz2alPRMwiVQH70Dhcsg2kaUTMCOgVh5Nprs=
   on:
-    tags: true
+    branch: master
     repo: c2cs/c2cs-jsdoc
