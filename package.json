@@ -1,6 +1,6 @@
 {
 	"name"            : "c2cs-jsdoc",
-	"version"         : "0.3.3",
+	"version"         : "0.3.4",
 	"description"     : "A JSDoc theme and plugin collection based on Minami and Loke.",
 	"license"         : "MIT",
 	"main"            : "publish.js",
@@ -17,7 +17,8 @@
 		"url"   : "http://www.lukechavers.com/"
 	},
 	"scripts"         : {
-		"fixture" : "scripts/init-fixture-project.sh"
+		"fixture" : "scripts/init-fixture-project.sh",
+		"test"    : "scripts/test.sh"
 	},
 	"devDependencies" : { },
 	"directories"     : [
