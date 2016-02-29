@@ -21,6 +21,7 @@ source "$PROVISION_SCRIPT_ROOT/github-exec.sh"
 # Run Several Scripts from GitHub Files..
 exec_github_script "yum-update-cache"
 exec_github_script "yum-install-common"
+exec_github_script "yum-install-git"
 exec_github_script "yum-install-node-js"
 exec_github_script "npm-create-dep-symlink"
 exec_github_script "npm-install-deps"

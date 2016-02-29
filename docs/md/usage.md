@@ -1,8 +1,5 @@
 # Basic Usage
 
-Note: This document assumes that you have read and completed all of the steps 
-outlined in the [installation](./installation.md) documentation.
-
 ## The Bare Minimums
 
 This module includes several modules, but fundamentally it includes two basic
