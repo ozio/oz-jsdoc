@@ -1,6 +1,6 @@
-[![NPM](https://nodei.co/npm/c2cs-jsdoc.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/c2cs-jsdoc/)
+# Oz JSDoc3 theme
 
-[![Build Status](https://travis-ci.org/c2cs/c2cs-jsdoc.svg?branch=master)](https://travis-ci.org/c2cs/c2cs-jsdoc)
+This project forked from https://github.com/c2cs/c2cs-jsdoc. Original description:
 
 This project provides [JSDoc](http://usejsdoc.org/) and a collection of plugin's that we use at 
 [C2C Schools, LLC](http://www.c2cschools.com/) for most of our [Node.js](https://nodejs.org/) projects.
