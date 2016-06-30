@@ -1,15 +1,15 @@
 {
-	"name"            : "c2cs-jsdoc",
-	"version"         : "0.3.10",
-	"description"     : "A JSDoc theme and plugin collection based on Minami and Loke.",
+	"name"            : "oz-jsdoc",
+	"version"         : "0.0.1",
+	"description"     : "A JSDoc theme and plugin collection based on c2cs-jsdoc (which is based on Minami and Loke).",
 	"license"         : "MIT",
 	"main"            : "publish.js",
 	"repository"      : {
 		"type" : "git",
-		"url"  : "https://github.com/c2cs/c2cs-jsdoc"
+		"url"  : "https://github.com/ozio/oz-jsdoc"
 	},
 	"bugs"            : {
-		"url" : "https://github.com/c2cs/c2cs-jsdoc/issues"
+		"url" : "https://github.com/ozio/oz-jsdoc/issues"
 	},
 	"author"          : {
 		"name"  : "Luke Chavers",
