@@ -15,6 +15,10 @@ body {
   line-height: 160%;
 }
 
+.table:last-child {
+  margin-bottom: 0;
+}
+
 /*a,
 a:active {
   color: #0095dd;
